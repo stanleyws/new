@@ -128,7 +128,6 @@ function toggle_payload(pld){
 	if(pld == "binloader"){
 		document.getElementById("progress").innerHTML="Awaiting Payload.. Send Payload to port 9021..";
 		preloadScripts(['jb.js', 'preloader.js', 'loader.js']);
-	}
 	}else if(pld == "goldhen"){
 		document.getElementById("progress").innerHTML="Loading GoldHenv1.1.. Please wait..";
 		preloadScripts(['jb.js', 'preloader.js', 'goldhen.js', 'loader.js']);
