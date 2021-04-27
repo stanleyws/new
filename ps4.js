@@ -182,9 +182,9 @@ function toggle_payload(pld){
 	}else if(pld == "ps4debug"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['jb.js', 'preloader.js', 'ps4debug.js', 'loader.js']);
-	}else if(pld == "webrte"){
+	}else if(pld == "rif"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['jb.js', 'preloader.js', 'webrte.js', 'loader.js']);
+		preloadScripts(['jb.js', 'preloader.js', 'rif.js', 'loader.js']);
 	}else if(pld == "gtav"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['jb.js', 'preloader.js', 'gtav.js', 'loader.js']);

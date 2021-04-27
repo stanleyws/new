@@ -1,6 +1,6 @@
 CACHE MANIFEST 
 # PS-Phwoar! Host Menu v1.1 
-# Tue 04/27/2021- 1:22:42.63 
+# Tue 04/27/2021-12:28:37.42 
 
 disableupdates.js
 dumper.js
@@ -28,8 +28,8 @@ vr.js
 app2usb.js
 backup.js
 gtav.js
-webrte.js
 goldhenold.js
+rif.js
 images\hen.png
 images\bin.png
 images\henold.png
@@ -49,3 +49,6 @@ images\clock.png
 images\30391.png
 images\debug.png
 images\gta.png
+images\webrte.png
+images\win.png
+images\rif.png
