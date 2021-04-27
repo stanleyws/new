@@ -128,15 +128,13 @@ function toggle_payload(pld){
 	if(pld == "binloader"){
 		document.getElementById("progress").innerHTML="Awaiting Payload.. Send Payload to port 9021..";
 		preloadScripts(['jb.js', 'preloader.js', 'loader.js']);
-	}else if(pld == "hen213b"){
-		document.getElementById("progress").innerHTML="Loading hen v213b.. Please wait..";
-		preloadScripts(['jb.js', 'preloader.js', 'hen213b.js', 'loader.js']);
+	}
 	}else if(pld == "goldhen"){
 		document.getElementById("progress").innerHTML="Loading GoldHenv1.1.. Please wait..";
 		preloadScripts(['jb.js', 'preloader.js', 'goldhen.js', 'loader.js']);
-	}else if(pld == "goldhen1"){
+	}else if(pld == "goldhenold"){
 		document.getElementById("progress").innerHTML="Loading GoldHenv1.0.. Please wait..";
-		preloadScripts(['jb.js', 'preloader.js', 'goldhen1.js', 'loader.js']);	
+		preloadScripts(['jb.js', 'preloader.js', 'goldhenold.js', 'loader.js']);	
 	}else if(pld == "ftp"){
 		setTimeout(function(){document.getElementById("progress").innerHTML="FTP Loaded.. Access at port 1337.."; }, 7000);
 		preloadScripts(['jb.js', 'preloader.js', 'ftp.js', 'loader.js']);
@@ -185,6 +183,9 @@ function toggle_payload(pld){
 	}else if(pld == "ps4debug"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['jb.js', 'preloader.js', 'ps4debug.js', 'loader.js']);
+	}else if(pld == "webrte"){
+		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		preloadScripts(['jb.js', 'preloader.js', 'webrte.js', 'loader.js']);
 	}else if(pld == "gtav"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['jb.js', 'preloader.js', 'gtav.js', 'loader.js']);
