@@ -25,9 +25,11 @@
 			padding: .5em;
 		}
 		.titlehead {
-			background: linear-gradient(90deg, navy, #1084d0);		
+			background-image: url(images/win.png), linear-gradient(90deg, navy, #1084d0);
+			background-repeat: no-repeat, repeat;
+			background-position: left center, left center;			
 			color: white;
-			padding: 3px 2px 3px 2px;
+			padding: 3px 2px 3px 40px;
 			display: flex;
 			justify-content: space-between;
 			align-items: center
@@ -105,10 +107,10 @@ function done(){
 	document.getElementById("myProgress").remove();
     document.getElementById('load').innerHTML='<tr id="mexp">'+
 			'<td align="center" id="jailbreak" colspan="5" >'+
-			'<a href="#" id="goldhenold" class="button" onclick="toggle_payload(\'goldhenold\'); return false" ><img src="images/henold.png"><br/>GoldHenV1.0</a>&nbsp;'+
-			'<a href="#" id="goldhen" class="button" onclick="toggle_payload(\'goldhen\'); return false" ><img src="images/hen.png"><br/>GoldHenV1.1</a>&nbsp;'+
-			'<a href="#" id="binloader" class="button" onclick="toggle_payload(\'binloader\'); return false" ><img src="images/bin.png"><br/>Bin Loader</a>&nbsp;'+
-			'<a href="#" id="gtam" class="button" onclick="toggle_payload(\'gtam\'); return false"><img src="images/gta.png"><br/>GTA V Mod Menu</a>&nbsp;'+
+			'<a href="#" id="goldhenold" class="button" onclick="toggle_payload(\'goldhenold\'); return false" ><img src="images/goldhenold.png"><br/>GoldHenV1.0</a>&nbsp;'+
+			'<a href="#" id="goldhen" class="button" onclick="toggle_payload(\'goldhen\'); return false" ><img src="images/goldhen.png"><br/>GoldHenV1.1</a>&nbsp;'+
+			'<a href="#" id="henb" class="button" onclick="toggle_payload(\'henb\'); return false" ><img src="images/henb.png"><br/>Hen 2.1.3b</a>&nbsp;'+
+			'<a href="#" id="mira" class="button" onclick="toggle_payload(\'mira\'); return false"><img src="images/mira.png"><br/>Mira</a>&nbsp;'+
 			'</td>'+
 			'</tr>'+
 			'<tr><td><br/></td></tr>'+
@@ -135,6 +137,15 @@ function done(){
 			'<a href="#" id="VR" class="button" onclick="toggle_payload(\'VR\'); return false"><img src="images/vr.png"><br/>Enable VR</a>&nbsp;'+
 			'<a href="#" id="linux1G" class="button" onclick="toggle_payload(\'linux1G\'); return false"><img src="images/1g.png"><br/>Linux 1G</a>&nbsp;'+
 			'<a href="#" id="linux3G" class="button" onclick="toggle_payload(\'linux3G\'); return false"><img src="images/3g.png"><br/>Linux 3G</a>&nbsp;'+
+			'</td>'+
+			'</tr>'+
+			'<tr><td><br/></td></tr>'+
+			'<tr>'+
+			'<td align="center" colspan="2">'+
+			'<a href="#" id="binloader" class="button" onclick="toggle_payload(\'binloader\'); return false" ><img src="images/bin.png"><br/>Bin Loader</a>&nbsp;'+
+			'<a href="#" id="gtam" class="button" onclick="toggle_payload(\'gtam\'); return false"><img src="images/gta.png"><br/>GTA V Mod Menu</a>&nbsp;'+
+			'<a href="#" id="webrte" class="button" onclick="toggle_payload(\'webrte\'); return false"><img src="images/webrte.png"><br/>WebRTE</a>&nbsp;'+
+			'<a href="#" id="activator" class="button" onclick="toggle_payload(\'activator\'); return false"><img src="images/activator.png"><br/>Web Activator</a>&nbsp;'+
 			'</td>'+
 			'</tr>'+
 			'<tr><td><br/></td></tr>'+
