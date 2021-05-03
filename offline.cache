@@ -1,6 +1,6 @@
 CACHE MANIFEST 
 # PS-Phwoar! Host Menu v1.1 
-# Sun 05/02/2021-19:53:37.47 
+# Sun 05/02/2021-21:53:03.03 
 
 disableupdates.js
 dumper.js
@@ -60,3 +60,13 @@ images\henb.png
 images\mira.png
 images\activator.png
 images\goldhen.png
+activator\frontend.js
+activator\payload.js
+activator\702.js
+activator\c-code.js
+activator\mira.js
+activator\c-code2.js
+activator\int64.js
+activator\ps4.js
+activator\utils.js
+activator\activator.html
