@@ -200,6 +200,9 @@ function toggle_payload(pld){
 	}else if(pld == "webrte"){
 		document.getElementById("progress").innerHTML="Loading WebRTE.. Please wait..";
 		preloadScripts(['jb.js', 'preloader.js', 'webrte.js', 'loader.js']);
+	}else if(pld == "orbistoolbox"){
+		document.getElementById("progress").innerHTML="Loading Orbis Toolbox.. Please wait..";
+		preloadScripts(['jb.js', 'preloader.js', 'orbistoolbox.js', 'loader.js']);
 	}
 	
 	if(window.postPayload)
